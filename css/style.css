@@ -158,7 +158,7 @@ color: #1D8680; /* Palette */
     border:0 #ccc solid; /* Palette */
     border-top-width: 1px;
     border-bottom-width: 1px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .chapters h1{
@@ -181,6 +181,9 @@ color: #1D8680; /* Palette */
     font-size: 1.2em; 
 }
 
+.chapters-thumb{
+    padding-left: 0;
+}
 
 /* Protocol */
 
@@ -451,9 +454,14 @@ color: #1D8680; /* Palette */
 .footer h4{
     margin-top: 30px;
 }    
+
+.chapters-thumb{
+    padding-left: 0;
+    padding-right: 0;
+}
 }
 
-@media only screen and (max-width : 720px) {
+@media only screen and (max-width : 768px) {
 
 .section-text-introduction{
  -webkit-column-count: 1; /* Chrome, Safari, Opera */
@@ -466,6 +474,16 @@ color: #1D8680; /* Palette */
     font-size: 2.5em;
     padding-top: 40px
 }
+
+.chapters-thumb{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.chapters{
+    margin-bottom: 50px;
+}
+
 }
 
 
